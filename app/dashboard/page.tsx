@@ -38,7 +38,7 @@ function Dashboard() {
             </div>
 
             <div className="relative flex items-center w-[35%] max-md:w-[190px] max-sm:w-[140px]">
-                <input type="text" placeholder="Search here..." className="search rounded-full px-10 py-2 border-[1px] border-slate-400 w-[100%] max-md:pr-4"/>
+                <input type="text" placeholder="Search here..." className="search rounded-full px-10 py-[13px] border-[1px] border-slate-400 w-[100%] max-md:pr-4"/>
                 <Image src={search} alt="searchIcon" className="absolute left-3"/>
             </div>
 
@@ -139,12 +139,12 @@ function Dashboard() {
 
                 <div className="mb-[20px] bg-white rounded-xl relative w-full py-[40px]">
                     <div className="flex justify-center">
-                        <p className="absolute -top-5 py-2 max-[480px]:px-4 max-sm:text-[480]:text-[14px] px-8 font-[600] text-[18px] text-blue-950 border-[3px] border-blue-800 bg-white rounded-md">2,421 search results are hidden<span className="max-[480px]:hidden"> 🤫</span></p>
+                        <p className="absolute -top-5 py-2 max-[480px]:px-4 max-sm:text-[480]:text-[14px] px-8 font-[600] text-[18px] text-blue-950 rainbowBorder bg-white">2,421 search results are hidden<span className="max-[480px]:hidden"> 🤫</span></p>
                     </div>
 
                     <h1 className="font-[700] text-[40px] leading-[48px] text-center text-gray-800 w-[40%] max-lg:w-[50%] max-md:w-[65%] max-sm:w-[80%] mx-auto mb-[25px]">Upgrade to <span className="text-royalPurple">Pro Plan</span> to access all result</h1>
 
-                    <div className="flex items-center justify-between generalbg font-[600] rounded-lg text-gray-700 w-[46%] max-lg:w-[60%] max-md:w-[75%] max-sm:w-[90%] max-[500px]:text-[12px] mx-auto py-2 px-3 mb-[25px]">
+                    <div className="flex items-center justify-between generalbg font-[600] rounded-lg text-gray-700 w-[400px] max-lg:w-[50%] max-md:w-[77%] max-sm:w-[90%] max-[500px]:text-[12px] mx-auto py-2 px-3 mb-[25px]">
                         <p className="border-[2px] border-royalPurple p-3 rounded-md bg-white cursor-pointer">Pay monthly</p>
                         <p className="cursor-pointer">Pay Quarterly</p>
                         <p className="cursor-pointer">Pay Annually</p>
